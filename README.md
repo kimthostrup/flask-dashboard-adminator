@@ -1,6 +1,6 @@
 # [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - WIP
 
-Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Adminator Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/open-source)** with Adminator Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
 
 - SQLite database, SQLAlchemy ORM
 - Session based authentication flow (login, register)
