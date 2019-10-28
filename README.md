@@ -1,4 +1,4 @@
-# [Flask Dashboard Adminator](https://flask-dashboard-adminator.appseed.us/)
+# [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - WIP
 
 Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Adminator Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
 
@@ -13,7 +13,7 @@ Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** 
 
 <br />
 
-## Build from sources
+## Build from sources - WIP
 
 ```bash
 $ # clone the sources
@@ -42,10 +42,11 @@ $ # app is running on port 5000
 
 ## Resources
 
-- [Flask Dashboard Adminator](https://flask-dashboard-adminator.appseed.us/) - live DEMO
+- [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - Official Product Page
+- [Flask Dashboard Adminator](https://flask-dashboard-adminator.appseed.us/) - Live DEMO
 - [Flask Framework](https://palletsprojects.com/p/flask/) - official website
  
 <br />
  
 ---
-[Flask Dashboard Adminator](https://flask-dashboard-adminator.appseed.us/) provided by **AppSeed**
+[Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) provided by **AppSeed**
