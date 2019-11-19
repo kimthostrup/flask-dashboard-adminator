@@ -1,8 +1,6 @@
 # [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-adminator)** coded in **Flask Web Framework** on top of **Adminator Dashboard** design. **Dashboard** features:
-
-<br />
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-adminator)** coded in **Flask Framework** on top of **Adminator Dashboard** design. **Features**:
 
 - SQLite database
 - SQLAlchemy ORM
