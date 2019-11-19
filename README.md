@@ -7,7 +7,7 @@
 - SQLite database
 - SQLAlchemy ORM
 - Session-Based authentication flow (login, register)
-- [Adminator UI](https://github.com/app-generator/fork-adminator-admin-dashboard) by ColorLib
+- UI Kit: [Adminator Free Dashboard](https://github.com/app-generator/fork-adminator-admin-dashboard) by **ColorLib**
 
 <br />
 
