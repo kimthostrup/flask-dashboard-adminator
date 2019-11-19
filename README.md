@@ -1,48 +1,49 @@
-# [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - WIP
+# [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/open-source)** with Adminator Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
-
-- SQLite database, SQLAlchemy ORM
-- Session based authentication flow (login, register)
-- Static Build via Frozen-Flask
-- **MIT License**
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-adminator)** coded in **Flask Web Framework** on top of **Adminator Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
 
 <br />
 
-![Flask Dashboard Adminator - Open-Source Admin Panel](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-adminator-intro.gif)
+- SQLite database
+- SQLAlchemy ORM
+- Session-Based authentication flow (login, register)
+- [Adminator UI](https://github.com/app-generator/fork-adminator-admin-dashboard) by ColorLib
 
 <br />
 
-## Build from sources - WIP
+![Flask Dashboard Adminator - Open-Source Flask Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-adminator-intro.gif)
+
+<br />
+
+## Build from sources
 
 ```bash
-$ # clone the sources
+$ # Clone the sources
 $ git clone https://github.com/app-generator/flask-dashboard-adminator.git
 $ cd flask-dashboard-adminator
 $
-$ # install modules using a virtualenv
+$ # Virtualenv modules installation (Unix based systems)
 $ virtualenv --no-site-packages env
 $ source env/bin/activate
 $
-$ # install deps 
-$ pip install -r requirements.txt
-$
-$ # Create SQLite database using the Flask console
-$ flask shell
->> from app import db
->> db.create_all()
->> quit() 
-$
-$ # SQLite database.db should be created in the app folder:
-$ # app\database.db
+$ # Virtualenv modules installation (Windows based systems)
+$ # virtualenv --no-site-packages env
+$ # .\env\Scripts\activate
+$ 
+$ # Install requirements
+$ pip3 install -r requirements.txt
 $
 $ # Set the FLASK_APP environment variable
-$ (Windows) set FLASK_APP=app.py
-$ (Unix) export FLASK_APP=app.py
-$ (Powershell) $env:FLASK_APP = ".\app.py"
-$ 
-$ flask app.py
-$ # app is running on port 5000
+$ (Unix/Mac) export FLASK_APP=run.py
+$ (Windows) set FLASK_APP=run.py
+$ (Powershell) $env:FLASK_APP = ".\run.py"
+$
+$ # Run the application
+$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
+$ # --port=5000    - specify the app port (default 5000)  
+$ flask run --host=0.0.0.0 --port=5000
+$
+$ # Access the app in browser: http://127.0.0.1:5000/
 ```
 
 <br />
@@ -57,13 +58,23 @@ $ # app is running on port 5000
 
 <br />
 
+## Support
+---
+
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and [Github](https://github.com/app-generator/flask-argon-dashboard/issues/)
+- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
+
+<br />
+
 ## Resources
 
-- [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - Official Product Page
+- [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) - Product page
 - [Flask Dashboard Adminator](https://flask-dashboard-adminator.appseed.us/) - Live DEMO
-- [Flask Framework](https://palletsprojects.com/p/flask/) - official website
- 
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
+- [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
+- [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
+
 <br />
- 
+
 ---
 [Flask Dashboard Adminator](https://appseed.us/admin-dashboards/flask-dashboard-adminator) provided by **AppSeed**
